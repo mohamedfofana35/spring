@@ -8,10 +8,10 @@ import java.sql.Statement;
 public class JdbcConnection {
 
 
-    // Informations de connexion
-    private static final String URL = "jdbc:postgresql://localhost:5432/demo";
+   // Informations de connexion
+    private static final String URL = "jdbc:postgresql://localhost:5432/nomdb";
     private static final String USER = "postgres";
-    private static final String PASSWORD = "1994";
+    private static final String PASSWORD = "xxxx";
 
     public static void main(String[] args) {
         Connection connection = null;
